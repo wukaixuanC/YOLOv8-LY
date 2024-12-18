@@ -1,0 +1,44 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.13",
+    "heartbeatAt": "2024-01-08T03:24:34.361380",
+    "startedAt": "2024-01-08T03:24:34.234429",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\Abirdope\\Desktop\\python\\yolov8-new1011\\main.py",
+    "codePath": "main.py",
+    "host": "LAPTOP-N17BP17V",
+    "username": "Abirdope",
+    "executable": "C:\\Users\\Abirdope\\.conda\\envs\\SCAU\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2400.0,
+        "min": 0.0,
+        "max": 2400.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400.0,
+            "min": 0.0,
+            "max": 2400.0
+        }
+    ],
+    "disk": {
+        "total": 237.90722274780273,
+        "used": 213.35435104370117
+    },
+    "gpu": "NVIDIA GeForce GTX 1650",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1650",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 7.846305847167969
+    }
+}

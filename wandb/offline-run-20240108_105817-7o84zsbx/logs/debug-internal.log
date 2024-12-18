@@ -1,0 +1,45 @@
+2024-01-08 10:58:17,086 INFO    StreamThr :20964 [internal.py:wandb_internal():89] W&B internal server running at pid: 20964, started at: 2024-01-08 10:58:17.085319
+2024-01-08 10:58:17,088 DEBUG   HandlerThread:20964 [handler.py:handle_request():144] handle_request: status
+2024-01-08 10:58:17,095 INFO    WriterThread:20964 [datastore.py:open_for_write():85] open: C:\Users\Abirdope\Desktop\python\yolov8-new1011\wandb\offline-run-20240108_105817-7o84zsbx\run-7o84zsbx.wandb
+2024-01-08 10:58:17,104 DEBUG   HandlerThread:20964 [handler.py:handle_request():144] handle_request: run_start
+2024-01-08 10:58:17,154 DEBUG   HandlerThread:20964 [system_info.py:__init__():31] System info init
+2024-01-08 10:58:17,154 DEBUG   HandlerThread:20964 [system_info.py:__init__():46] System info init done
+2024-01-08 10:58:17,154 INFO    HandlerThread:20964 [system_monitor.py:start():181] Starting system monitor
+2024-01-08 10:58:17,154 INFO    SystemMonitor:20964 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2024-01-08 10:58:17,154 INFO    HandlerThread:20964 [system_monitor.py:probe():201] Collecting system info
+2024-01-08 10:58:17,158 INFO    SystemMonitor:20964 [interfaces.py:start():190] Started cpu monitoring
+2024-01-08 10:58:17,159 INFO    SystemMonitor:20964 [interfaces.py:start():190] Started disk monitoring
+2024-01-08 10:58:17,159 INFO    SystemMonitor:20964 [interfaces.py:start():190] Started gpu monitoring
+2024-01-08 10:58:17,160 INFO    SystemMonitor:20964 [interfaces.py:start():190] Started memory monitoring
+2024-01-08 10:58:17,179 INFO    SystemMonitor:20964 [interfaces.py:start():190] Started network monitoring
+2024-01-08 10:58:17,205 DEBUG   HandlerThread:20964 [system_info.py:probe():195] Probing system
+2024-01-08 10:58:17,205 DEBUG   HandlerThread:20964 [system_info.py:probe():240] Probing system done
+2024-01-08 10:58:17,205 DEBUG   HandlerThread:20964 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.19041-SP0', 'python': '3.7.13', 'heartbeatAt': '2024-01-08T02:58:17.205000', 'startedAt': '2024-01-08T02:58:17.075584', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'C:\\Users\\Abirdope\\Desktop\\python\\yolov8-new1011\\main.py', 'codePath': 'main.py', 'host': 'LAPTOP-N17BP17V', 'username': 'Abirdope', 'executable': 'C:\\Users\\Abirdope\\.conda\\envs\\SCAU\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400.0, 'min': 0.0, 'max': 2400.0}, 'cpu_freq_per_core': [{'current': 2400.0, 'min': 0.0, 'max': 2400.0}], 'disk': {'total': 237.90722274780273, 'used': 217.8631362915039}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4294967296}], 'memory': {'total': 7.846305847167969}}
+2024-01-08 10:58:17,205 INFO    HandlerThread:20964 [system_monitor.py:probe():211] Finished collecting system info
+2024-01-08 10:58:17,205 INFO    HandlerThread:20964 [system_monitor.py:probe():214] Publishing system info
+2024-01-08 10:58:17,205 DEBUG   HandlerThread:20964 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-01-08 10:58:17,205 DEBUG   HandlerThread:20964 [system_info.py:_save_pip():67] Saving pip packages done
+2024-01-08 10:58:17,205 DEBUG   HandlerThread:20964 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-01-08 10:58:17,208 ERROR   gpu       :20964 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-08 10:58:19,266 ERROR   gpu       :20964 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-08 10:58:21,317 ERROR   gpu       :20964 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-08 10:58:23,356 ERROR   gpu       :20964 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-08 10:58:24,463 DEBUG   HandlerThread:20964 [system_info.py:_save_conda():86] Saving conda packages done
+2024-01-08 10:58:24,464 INFO    HandlerThread:20964 [system_monitor.py:probe():216] Finished publishing system info
+2024-01-08 10:58:24,481 DEBUG   HandlerThread:20964 [handler.py:handle_request():144] handle_request: status_report
+2024-01-08 10:58:24,481 DEBUG   HandlerThread:20964 [handler.py:handle_request():144] handle_request: keepalive
+2024-01-08 10:58:24,481 DEBUG   SenderThread:20964 [sender.py:send_request():406] send_request: status_report
+2024-01-08 10:58:25,407 ERROR   gpu       :20964 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-08 10:58:27,445 ERROR   gpu       :20964 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-08 10:58:27,503 DEBUG   HandlerThread:20964 [handler.py:handle_request():144] handle_request: status_report
+2024-01-08 10:58:27,503 DEBUG   SenderThread:20964 [sender.py:send_request():406] send_request: status_report
+2024-01-08 10:58:29,499 ERROR   gpu       :20964 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-08 10:58:31,224 INFO    memory    :20964 [interfaces.py:monitor():140] Process proc.memory.rssMB has exited.
+2024-01-08 10:58:31,225 DEBUG   SystemMonitor:20964 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2024-01-08 10:58:31,226 DEBUG   SystemMonitor:20964 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2024-01-08 10:58:31,226 DEBUG   SystemMonitor:20964 [system_monitor.py:_start():170] Publishing last batch of metrics
+2024-01-08 10:58:32,288 INFO    MainThread:20964 [internal.py:handle_exit():76] Internal process exited
+2024-01-08 10:58:32,534 DEBUG   HandlerThread:20964 [handler.py:handle_request():144] handle_request: status_report
+2024-01-08 10:58:32,534 DEBUG   SenderThread:20964 [sender.py:send_request():406] send_request: status_report
+2024-01-08 10:58:34,256 WARNING StreamThr :20964 [internal.py:is_dead():415] Internal process exiting, parent pid 23788 disappeared
+2024-01-08 10:58:34,256 ERROR   StreamThr :20964 [internal.py:wandb_internal():152] Internal process shutdown.
